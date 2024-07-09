@@ -148,6 +148,7 @@ ul {
 }
 .hero-title {
   color: var(--primary-bg-color);
+  max-width: ;
   width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -172,6 +173,10 @@ ul {
   padding: 12px 24px;
   border-radius: 4px;
   margin-top: 0;
+  /* display: block; */
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .button:focus {
   color: #ffffff;
@@ -181,7 +186,7 @@ ul {
 }
 
 .first-button {
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   color: var(--primary-bg-color);
   background: var(--accent-color);
 }
