@@ -208,6 +208,7 @@ ul {
 }
 .list-team {
   background-color: var(--primary-bg-color);
+  display: block;
 }
 .title {
   color: var(--primary-text-color);
@@ -216,9 +217,14 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.title-list {
+  width: calc((100% - 72px) / 4);
+}
 .text {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team {
@@ -229,6 +235,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-right: 24px;
 }
 
 /* .future-list .title-list {
