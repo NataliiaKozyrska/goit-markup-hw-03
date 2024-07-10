@@ -256,12 +256,11 @@ ul {
   padding: 120px 0;
 }
 
-.container-3 {
-  padding: 32px 0;
+.feature-section3 {
+  display: flex;
+  gap: 24px;
 }
-/* .feature-section3 {
-} */
-.section-h2 {
+.section-team {
   margin-bottom: 72px;
 }
 .list-team {
