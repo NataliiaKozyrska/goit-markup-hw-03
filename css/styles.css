@@ -166,10 +166,11 @@ ul {
   padding: 12px 24px;
   border-radius: 4px;
   margin-top: 0;
-  /* display: block; */
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
 }
 .button:focus {
   color: #ffffff;
