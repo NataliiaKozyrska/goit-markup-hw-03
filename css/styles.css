@@ -255,9 +255,13 @@ ul {
   background-color: var(--background-3section);
   padding: 120px 0;
 }
+
+.container-3 {
+  padding: 32px 0;
+}
 /* .feature-section3 {
 } */
-.section-h3 {
+.section-h2 {
   margin-bottom: 72px;
 }
 .list-team {
@@ -276,6 +280,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
+  display: flex;
+  gap: 24px;
 }
 
 .list-employees {
