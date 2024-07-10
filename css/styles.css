@@ -256,7 +256,7 @@ ul {
   padding: 120px 0;
 }
 
-.feature-section3 {
+.feature-section {
   display: flex;
   gap: 24px;
 }
@@ -283,6 +283,10 @@ ul {
   gap: 24px;
 }
 
+.employee-description {
+  padding: 32px 0;
+}
+
 .list-employees {
   color: var(--title-text-color);
   font-size: 16px;
@@ -299,6 +303,8 @@ ul {
 .images {
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-top: 120px;
+  padding-bottom: 120px;
   /* text-transform: capitalize; */
 }
 /* h3 */
@@ -317,6 +323,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 /* p */
 .list-images {
@@ -324,7 +331,12 @@ ul {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-/* li list-team?*/
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 /* FOOTER */
 
