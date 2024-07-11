@@ -366,13 +366,26 @@ ul {
   background-color: var(--primary-text-color);
   padding: 100px 0;
 }
-.footer-logo .logo-part {
+.footer-logo .logo-part-footer {
   color: var(--background-3section);
 }
-.link-footer {
+/* .link-footer {
   display: inline-block;
   margin-bottom: 16px;
+} */
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
 }
+
 .footer-paragraf {
   line-height: 1.5;
   color: var(--background-3section);
